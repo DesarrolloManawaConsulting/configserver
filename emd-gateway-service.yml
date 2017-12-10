@@ -66,4 +66,3 @@ zuul:
 ribbon:
   eureka:
     enabled: true
-	
