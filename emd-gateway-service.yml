@@ -69,3 +69,11 @@ zuul:
 ribbon:
   eureka:
     enabled: true
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 15000
