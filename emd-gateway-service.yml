@@ -13,9 +13,6 @@ endpoints:
     sensitive: false
 
 zuul:
-  host:
-    connect-timeout-millis: 60000 # starting the connection 
-    socket-timeout-millis: 60000  # monitor the continuous incoming data flow
   prefix: /emdGateway
   routes:
     account: 
@@ -69,3 +66,11 @@ zuul:
 ribbon:
   eureka:
     enabled: true
+	
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 15000
