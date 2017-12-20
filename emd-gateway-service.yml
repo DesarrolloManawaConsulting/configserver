@@ -39,6 +39,9 @@ zuul:
     flows: 
       path: /flows/**
       serviceId: emd-core-service
+    agents: 
+      path: /agents/**
+      serviceId: emd-core-service
     asn: 
       path: /asn/**
       serviceId: emd-core-service 
