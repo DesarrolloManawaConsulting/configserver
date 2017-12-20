@@ -35,7 +35,10 @@ zuul:
       serviceId: emd-core-service
     microintegrations: 
       path: /microintegrations/**
-      serviceId: emd-core-service 
+      serviceId: emd-core-service
+    flows: 
+      path: /flows/**
+      serviceId: emd-core-service
     asn: 
       path: /asn/**
       serviceId: emd-core-service 
