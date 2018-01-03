@@ -42,6 +42,9 @@ zuul:
     agents: 
       path: /agents/**
       serviceId: emd-core-service
+    connector: 
+      path: /connector/**
+      serviceId: emd-core-service
     asn: 
       path: /asn/**
       serviceId: emd-core-service 
