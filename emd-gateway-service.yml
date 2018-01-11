@@ -48,6 +48,9 @@ zuul:
     controllers: 
       path: /controllers/**
       serviceId: emd-core-service
+    containers: 
+      path: /containers/**
+      serviceId: emd-core-service
     asn: 
       path: /asn/**
       serviceId: emd-core-service 
