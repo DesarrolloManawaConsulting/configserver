@@ -45,6 +45,9 @@ zuul:
     connector: 
       path: /connector/**
       serviceId: emd-core-service
+    controllers: 
+      path: /controllers/**
+      serviceId: emd-core-service
     asn: 
       path: /asn/**
       serviceId: emd-core-service 
