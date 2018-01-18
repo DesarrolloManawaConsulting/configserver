@@ -51,6 +51,9 @@ zuul:
     container: 
       path: /container/**
       serviceId: emd-core-service
+    miInstance: 
+      path: /miInstance/**
+      serviceId: emd-core-service
     asn: 
       path: /asn/**
       serviceId: emd-core-service 
