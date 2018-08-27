@@ -18,6 +18,9 @@ zuul:
     socket-timeout-millis: 60000  # monitor the continuous incoming data flow
   prefix: /emdGateway
   routes:
+    user: 
+      path: /user/**
+      serviceId: emd-core-service
     account: 
       path: /account/**
       serviceId: account-service
